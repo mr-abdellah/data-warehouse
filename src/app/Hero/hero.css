@@ -1,0 +1,97 @@
+.hero {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 5%;
+  height: 30rem;
+}
+
+.heroInfo {
+  width: 37%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10%;
+}
+
+.heroInfo h1 {
+  margin: 0;
+  color: #212353;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 110%;
+}
+
+.heroInfo p {
+  margin: 0;
+  font-family: "AvenirBook";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 160%;
+  color: #4b5d68;
+  width: 80%;
+}
+
+.heroInfo button {
+  background: #9c69e2;
+  border-radius: 50px;
+  font-family: "AvenirBook";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  padding: 1% 5%;
+}
+
+.hero__img {
+  width: 57%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__img img {
+  width: 130%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    margin-top: 20%;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .heroInfo {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    gap: 1.5rem;
+  }
+
+  .heroInfo h1 {
+    font-size: 3rem;
+  }
+
+  .hero__img {
+    width: 100%;
+    margin-top: 4%;
+  }
+
+  .hero__img img {
+    width: 100%;
+  }
+}
